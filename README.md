@@ -1,53 +1,38 @@
-# Enterprise Network Security Implementation
+# Enterprise Network Project — Cisco Packet Tracer
 
-A comprehensive Cisco Packet Tracer project simulating a real-world 
-enterprise network with full security implementation across two 
-branch offices.
+This was a project I built to simulate how a real company network 
+works across two branch offices. I wanted to cover everything from 
+basic switching all the way to securing traffic between sites.
 
-## 📋 Scenario
+## What I Built
 
-Designed and implemented a complete enterprise network infrastructure 
-for an organization with two branch offices, incorporating routing, 
-switching, security, and encrypted communication.
+The idea was simple — two offices that need to talk to each other 
+securely over the internet, with proper network segmentation and 
+traffic control inside each office.
 
-## 🔧 Network Components Used
+## What I Implemented
 
-- **Cisco ASA Firewalls** — VPN and traffic filtering
-- **Cisco Routers** — inter-branch routing
-- **Cisco Switches** — VLANs and VTP configuration
-- **PCs** — end user devices at each branch
+- VLANs to separate departments within each office
+- VTP to manage VLANs centrally across switches
+- Inter-VLAN Routing so different departments can communicate
+- OSPF for dynamic routing between routers
+- ACLs to control which traffic is allowed or blocked
+- ASA Firewall to protect each office from outside threats
+- IPSec VPN tunnel between both offices for encrypted communication
 
-## 🔐 Security & Network Implementation
+## Devices Used
 
-- **IPSec VPN Tunnel** — encrypted secure communication 
-  between two branch offices
-- **ASA Firewall** — traffic inspection and security policies
-- **ACLs (Access Control Lists)** — controlling and filtering 
-  network traffic
-- **VTP (VLAN Trunking Protocol)** — centralized VLAN management 
-  across switches
-- **VLANs** — network segmentation for departments
-- **Inter-VLAN Routing (IVR)** — communication between VLANs
-- **OSPF** — dynamic routing between network devices
+- Cisco Routers
+- Cisco Switches
+- Cisco ASA Firewalls
+- End user PCs
 
-## 🎯 What This Project Covers
-
-- Network design and planning for enterprise environment
-- Secure site-to-site VPN between branch offices
-- Network segmentation using VLANs
-- Traffic filtering using ACLs
-- Dynamic routing using OSPF
-- Centralized VLAN management using VTP
-
-## 🛠️ Tools Used
+## Tools
 
 - Cisco Packet Tracer
-- Cisco ASA Firewall
-- IPSec Protocol
-- OSPF Routing Protocol
 
-## 👨‍💻 Author
+## Author
 
 Mohammed Fazlian
-Cybersecurity Enthusiast | Network Security
+Cybersecurity Enthusiast
 [LinkedIn] | [Email]
