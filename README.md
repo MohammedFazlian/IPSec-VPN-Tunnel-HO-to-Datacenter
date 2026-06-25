@@ -35,4 +35,9 @@ traffic control inside each office.
 
 Mohammed Fazlian
 Cybersecurity Enthusiast
-[LinkedIn] | [Email]
+
+## 📫 Connect with me
+- LinkedIn: [your LinkedIn link here]
+- Email: Mdfazlian30@gmail.com
+- TryHackMe: https://tryhackme.com/p/mdfazlian30
+
